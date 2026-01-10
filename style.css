@@ -1,0 +1,52 @@
+nav {
+    border: 3px solid #00bbff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #25c640;
+    font-size: 21px;
+}
+
+.nav-logo img {
+    height: 50px;
+    width: auto;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.message {
+  text-align: center;
+}
+
+.welcome {
+  font-size: 40px; /* 对应font size="7" */
+}
+
+.notice {
+  font-size: 24px; /* 对应font size="6" */
+  color: #ff0000;
+}
